@@ -173,6 +173,16 @@ This project follows:
 - PEP 257 for docstrings
 - PEP 484 for type hints
 
+### Branch Protection
+
+To maintain code quality and prevent accidental changes to the main branch, we recommend setting up branch protection. See [`.github/BRANCH_PROTECTION.md`](.github/BRANCH_PROTECTION.md) for detailed setup instructions.
+
+**Quick setup:**
+1. Go to Settings → Rules → Rulesets
+2. Click "New ruleset" → "Import a ruleset"
+3. Upload `.github/ruleset-main-branch-protection.json`
+4. Review and create
+
 ## Future Enhancements
 
 - **Plate Generation:** Auto-generate print plates from STL files
