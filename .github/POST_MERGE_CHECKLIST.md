@@ -43,7 +43,7 @@ After this PR is merged, follow these steps to complete the branch protection se
 
 ## 📚 Reference Documentation
 
-- **Full Setup Guide**: [.github/BRANCH_PROTECTION.md](.github/BRANCH_PROTECTION.md)
+- **Full Setup Guide**: [BRANCH_PROTECTION.md](BRANCH_PROTECTION.md)
 - **Contributing Guide**: [CONTRIBUTING.md](../CONTRIBUTING.md)
 - **GitHub Docs**: [About protected branches](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 
@@ -60,7 +60,7 @@ Once complete, the `main` branch will be protected from:
 ## ❓ Need Help?
 
 If you encounter issues:
-1. Check the [troubleshooting section](.github/BRANCH_PROTECTION.md#troubleshooting) in BRANCH_PROTECTION.md
+1. Check the [troubleshooting section](BRANCH_PROTECTION.md#troubleshooting) in BRANCH_PROTECTION.md
 2. Review the GitHub documentation linked above
 3. Create an issue in this repository
 

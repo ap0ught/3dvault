@@ -65,7 +65,7 @@ Scroll down to the bottom of the rule configuration:
 - ✅ **Do not allow force pushes**
   - Prevents force pushing to `main` (protects against rewriting history)
   
-- ✅ **Allow deletions**
+- **Allow deletions**
   - Leave this **UNCHECKED** to prevent deletion of the `main` branch
 
 ### Step 4: Save the Rule
