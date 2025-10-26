@@ -44,26 +44,15 @@ Before a pull request can be merged to `main`, the following checks must pass:
 - **CI**: Automated test suite must pass
 - **Lint**: Code quality checks must pass
 
-### Branch Protection Rules
-To enable branch protection on this repository (requires admin access):
+### Enabling Branch Protection (Admin Only)
 
-1. Go to **Settings** → **Branches** → **Branch protection rules**
-2. Add a rule for the `main` branch with these settings:
-   - ✅ **Require a pull request before merging**
-     - ✅ Require approvals: 1
-     - ✅ Dismiss stale pull request approvals when new commits are pushed
-   - ✅ **Require status checks to pass before merging**
-     - ✅ Require branches to be up to date before merging
-     - Required checks:
-       - `Run Tests` (from CI workflow)
-       - `Code Quality Check` (from Lint workflow)
-   - ✅ **Require conversation resolution before merging**
-   - ✅ **Do not allow bypassing the above settings**
-   - ✅ **Restrict who can push to matching branches** (optional, for teams)
+For detailed instructions on configuring branch protection, see [BRANCH_PROTECTION.md](.github/BRANCH_PROTECTION.md).
 
-### Additional Protection (Recommended)
-- ✅ **Prevent force pushes** to `main`
-- ✅ **Prevent branch deletion** of `main`
+**Quick Summary:**
+- Require pull request reviews before merging
+- Require status checks to pass (CI + Lint)
+- Prevent force pushes to `main`
+- Prevent branch deletion of `main`
 
 ## Code Review Process
 
