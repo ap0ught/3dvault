@@ -1,0 +1,19 @@
+# This file defines code owners who are automatically requested for review
+# when someone opens a pull request that modifies code that they own.
+#
+# More information: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+* @ap0ught
+
+# Django configuration and settings
+/config/ @ap0ught
+
+# Core vault application
+/vault/ @ap0ught
+
+# Services layer
+/services/ @ap0ught
+
+# GitHub workflows and settings
+/.github/ @ap0ught
