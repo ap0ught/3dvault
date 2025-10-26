@@ -1,3 +1,5 @@
+"""Django app configuration for the vault application."""
+
 from django.apps import AppConfig
 
 
