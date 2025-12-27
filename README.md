@@ -163,7 +163,7 @@ Queue for outgoing email notifications.
 ### Running Tests
 
 ```bash
-python manage.py test vault.tests.test_zip_importer -v 2
+python manage.py test vault.tests -v 2
 ```
 
 ### Code Style
@@ -172,6 +172,14 @@ This project follows:
 - PEP 8 for code style
 - PEP 257 for docstrings
 - PEP 484 for type hints
+
+### Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Contribution guidelines
+- Code review process
+- Branch protection requirements
+- CI/CD workflow information
 
 ## Future Enhancements
 
